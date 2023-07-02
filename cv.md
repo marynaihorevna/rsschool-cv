@@ -12,7 +12,7 @@
 - Linkedn: [@maryna_zaitseva](адрес "https://t.me/maryna_zaitseva")
 
 ### About myself:
-
+Hello, my name is Maryna Verbovska! I am a Front-end developer. I have knowledge of HTML,CSS,JS,React and Bootstrap. I am looking forward to working in teams as well as individually. I could speak English (B1), German(B1), Russian(Native) and Ukrainian(Native)
 ### Skills and Proficiency:
 
 | Hard skills:             |   Soft skills   |
