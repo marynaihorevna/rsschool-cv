@@ -1,4 +1,4 @@
-#Maryna Verbovska
+# Maryna Verbovska
 
 ## Frontend Developer
 
@@ -12,7 +12,9 @@
 - Linkedn: [@maryna_zaitseva](адрес "https://t.me/maryna_zaitseva")
 
 ### About myself:
+
 Hello, my name is Maryna Verbovska! I am a Front-end developer. I have knowledge of HTML,CSS,JS,React and Bootstrap. I am looking forward to working in teams as well as individually. I could speak English (B1), German(B1), Russian(Native) and Ukrainian(Native)
+
 ### Skills and Proficiency:
 
 | Hard skills:             |   Soft skills   |
@@ -27,17 +29,17 @@ Hello, my name is Maryna Verbovska! I am a Front-end developer. I have knowledge
 
 #### Tic-tac-toe game (JS)
 
-`let area = document.getElementById('area');
+` let area = document.getElementById('area');
 let cell = document.getElementsByClassName('cell');
-let currentPlayer = document.getElementById('curPlyr');
+let currentPlayer = document.getElementById('curPlyr');`
 
-let player = "x";
+`let player = "x";
 let stat = {
 'x': 0,
 'o': 0,
 'd': 0
-}
-let winIndex = [
+}`
+`let winIndex = [
 [1,2,3],
 [4,5,6],
 [7,8,9],
@@ -46,17 +48,17 @@ let winIndex = [
 [3,6,9],
 [1,5,9],
 [3,5,7]
-];
+];`
 
-for(let i = 1; i <= 9; i++) {
+`for(let i = 1; i <= 9; i++) {
 area.innerHTML += "<div class='cell' pos=" + i + "></div>";
 }
 
 for (let i = 0; i< cell.length; i++) {
 cell[i].addEventListener('click', cellClick, false);
 }
-
-function cellClick() {
+`
+`function cellClick() {
 let data = [];
 
     if(!this.innerHTML) {
@@ -90,8 +92,8 @@ let data = [];
     currentPlayer.innerHTML = player.toUpperCase();
 
 }
-
-function checkWin(data) {
+`
+`function checkWin(data) {
 for(let i in winIndex) {
 let win = true;
 for(let j in winIndex[i]) {
@@ -107,20 +109,21 @@ let ind = data.indexOf(id);
     return false;
 
 }
-
-function restart(text) {
+`
+`function restart(text) {
 alert(text);
 for(let i = 0; i < cell.length; i++) {
 cell[i].innerHTML = '';
 }
 updateStat();
 }
-
-function updateStat() {
+`
+`function updateStat() {
 document.getElementById('sX').innerHTML = stat.x;
 document.getElementById('sO').innerHTML = stat.o;
 document.getElementById('sD').innerHTML = stat.d;
 }`
+`
 
 ### Work experience:
 
